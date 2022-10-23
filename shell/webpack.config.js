@@ -36,8 +36,15 @@ module.exports = {
 
       // For hosts (please adjust)
       // remotes: {
-      //     "mfe1": "http://localhost:3000/remoteEntry.js",
-
+      //     "mfe1": "firstButton@http://localhost:4300/remoteEntry.js",
+      //     "mfe2": {
+      //       external:"secondButton@http://localhost:4400/remoteEntry.js",
+      //       shareScope:'ng@13'
+      //     },
+      //     "mfe3": {
+      //       external:"thirdButton@http://localhost:4500/remoteEntry.js",
+      //       shareScope:'ng@13'
+      //     },
       // },
 
       shared: {

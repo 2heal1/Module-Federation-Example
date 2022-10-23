@@ -42,7 +42,8 @@ module.exports = {
         // remotes: {
         //     "mfe1": "http://localhost:3000/remoteEntry.js",
 
-        // },
+      shareScope:'ng@13',
+      // },
 
         shared: share({
           "@angular/core": { singleton: true, strictVersion: true, shareScope: 'ng@13', requiredVersion: packageDeps.dependencies["@angular/core"] },
