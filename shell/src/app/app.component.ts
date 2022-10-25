@@ -1,5 +1,6 @@
 // @ts-ignore skip type check
 import { loadRemoteModule } from '../helper';
+// import { loadRemoteModule } from '@angular-architects/module-federation';
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
@@ -31,7 +32,6 @@ export class AppComponent implements AfterViewInit {
         remoteName: 'secondButton',
         exposedModule: './second-button',
       });
-      console.log(2)
       await loadRemoteModule({
         type: 'script',
         remoteEntry: 'http://localhost:4300/remoteEntry.js',
